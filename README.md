@@ -1,10 +1,10 @@
 # Raisins
-An attempt of grouping swarms of 3D data points within spheres.
+An attempt of grouping swarms of 3D data points within spheres, for now ;-).
 
 ![Alt text](raisins.jpg?raw=true "Title")
 
 
-In binary classification for 2d data points we tend to find the equation of a line through some clever machine learning algorithms so as to split our 2d space into subspaces and hopefully if our data are separable, we classify one group of data points from another.
+In binary classification for separable groups of 2d data points we tend to find the equation of a line through some clever machine learning algorithms so as to split our 2d space into subspaces and then we classify one group of data points from another according to which subspace these points lie within.
 
 We could also draw a circle around each group that includes all the points of the known group and for new data points we could decide to which group they belong with a simple if statement. If the new data points are within the boundaries of the circle then they belong to this particular group, otherwise they do not.
 
