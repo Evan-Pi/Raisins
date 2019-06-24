@@ -27,10 +27,7 @@ def max_distance_from_centroid(x,y,z):
     y=np.array(y)
     z=np.array(z)
     cntr = np.array(centroid_3d(x,y,z))
-    coord = []
-    for i in range(len(x)):
-        coord.append([x[i],y[i],z[i]])
-    coord = np.array(coord)
+    coord = np.array( [ [x[i],y[i],z[i]] for i in range(len(x)) ] )
     coord = np.power(coord-cntr,2)
     return np.max(np.sum(coord,axis=1)**(1/2))
 
