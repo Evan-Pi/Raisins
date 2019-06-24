@@ -64,7 +64,7 @@ x3c , y3c , z3c = centroid_3d(x3,y3,z3)
 fig = plt.figure()
 ax = fig.gca(projection='3d')
 
-#Γραφική αναπαράσταση δεδομένων εκάστοτε είδους φυτού (Τρισδιάστατος χώρος με μεταβλητές αξόνων: Πλάτος πετάλου(x), Μήκος πετάλου(y), Μήκος σεπάλου(z))
+#Γραφική αναπαράσταση δεδομένων εκάστοτε είδους φυτού (Τρισδιάστατος χώρος με άξονες: Πλάτος πετάλου(x), Μήκος πετάλου(y), Μήκος σεπάλου(z))
 ax.scatter(x1, y1, z1,color = "darkgreen" , label="Iris-setosa")
 ax.scatter(x1c, y1c, z1c,color = "blue",marker="D" , label="Setosa Centroid")
 ax.scatter(x2, y2, z2,color = "magenta" , label="Iris-versicolor")
