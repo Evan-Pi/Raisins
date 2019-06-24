@@ -72,11 +72,12 @@ ax.scatter(x2c, y2c, z2c,color = "blue",marker="*" , label="Versicolor Centroid"
 ax.scatter(x3, y3, z3,color = "orange" , label="Iris-virginica")
 ax.scatter(x3c, y3c, z3c,color = "blue",marker="x" , label="Virginica Centroid")
 
-#Σχεδιασμός σφαιρών
+#Σχεδιασμός σφαιρών με κέντρο το κέντρο συμμετρίας του εκάστοτε είδους φυτού και ακτίνα την απόσταση από το σημείο αυτό έως το πιο μακρινό σημείο του εκάστοτε σμήνους.
 sphere(x1,y1,z1,x1c,y1c,z1c,"g")
 sphere(x2,y2,z2,x2c,y2c,z2c,"m")
 sphere(x3,y3,z3,x3c,y3c,z3c,"orange")
 
+#Προσθήκη τίτλων αξόνων
 ax.set_xlabel("Petal Width (cm)")
 ax.set_ylabel("Petal Length (cm)")
 ax.set_zlabel("Sepal Length (cm)")
