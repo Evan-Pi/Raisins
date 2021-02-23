@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
+
 
 """Ανάγνωση δεδομένων από αρχείο csv"""
 column_names = ["Sepal_Length","Sepal_Width","Petal_Length","Petal_Width","Class"]
